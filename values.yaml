@@ -33,9 +33,9 @@ sslCertPath: /etc/kubernetes/pki/ca.crt
 cloudConfigPath: /etc/gce.conf
 
 image:
-repository: k8s.gcr.io/cluster-autoscaler
-tag: v1.2.2
-pullPolicy: IfNotPresent
+ repository: k8s.gcr.io/cluster-autoscaler
+ tag: v1.2.2
+ pullPolicy: IfNotPresent
 
 tolerations: []
 
