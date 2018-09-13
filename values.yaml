@@ -116,6 +116,6 @@ spotinst:
  account: ""
  token: ""
  image:
-   repository: spotinst/kubernetes-cluster-autoscaler
-   tag: 0.6.0
-   pullPolicy: IfNotPresent
+  repository: spotinst/kubernetes-cluster-autoscaler
+  tag: 0.6.0
+pullPolicy: IfNotPresent
